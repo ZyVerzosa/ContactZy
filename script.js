@@ -1,4 +1,4 @@
 document.getElementById('contact-btn').addEventListener('click', function () {
-    const phoneNumber = '+1234567890'; // Replace with your phone number
+    const phoneNumber = '+639493443122'; 
     window.location.href = `tel:${phoneNumber}`;
 });
