@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Business Card</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container-fluid d-flex justify-content-center align-items-center vh-100">
+        <div class="card text-center p-4 shadow w-100" id="business-card">
+            <div class="card-body">
+                <img src="-CroppedIMG_2295.jpeg" class="rounded-circle mb-3" alt="Profile Picture" id="profile-pic">
+                <h5 class="card-title mb-2" id="name">John Doe</h5>
+                <p class="text-muted mb-3" id="title">Web Developer</p>
+                <p class="card-text small text-muted mb-2" id="email">
+                    <i class="fas fa-envelope mr-2"></i> johndoe@example.com
+                </p>
+                <p class="card-text small text-muted mb-4" id="phone">
+                    <i class="fas fa-phone-alt mr-2"></i> +123 456 7890
+                </p>
+                <div class="social-links d-flex justify-content-center mb-4">
+                    <a href="https://www.facebook.com/johndoe" target="_blank" class="social-link mx-2" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/johndoe" target="_blank" class="social-link mx-2" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.twitter.com/johndoe" target="_blank" class="social-link mx-2" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/johndoe" target="_blank" class="social-link mx-2" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <button class="btn btn-primary btn-block mb-2" id="contact-btn">Call Me</button>
+                <a href="contact.vcf" download class="btn btn-outline-primary btn-block">Save Contact</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

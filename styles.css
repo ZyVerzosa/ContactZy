@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Card Styling */
+#business-card {
+    height: 100%; /* Occupy full height */
+    max-width: 400px; /* Centered for larger screens */
+    border: none;
+    border-radius: 0;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#business-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+#profile-pic {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 3px solid #007bff;
+    margin: 0 auto;
+}
+
+/* Text Styles */
+.card-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.card-text {
+    font-size: 0.9rem;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+/* Social Links */
+.social-links {
+    gap: 1rem;
+}
+
+.social-link {
+    font-size: 1.2rem;
+    color: #6c757d;
+    transition: color 0.2s;
+}
+
+.social-link:hover {
+    color: #007bff;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 30px;
+}
+
+.btn-outline-primary {
+    border-radius: 30px;
+}
+
+.btn-block {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+}
